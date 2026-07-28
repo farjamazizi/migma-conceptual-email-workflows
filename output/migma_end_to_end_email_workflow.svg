@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-labelledby="title desc">
+  <title id="title">Conceptual Migma End-to-End Email Workflow</title>
+  <desc id="desc">Conceptual system diagram prepared for presentation.</desc>
+
+  <defs>
+    <linearGradient id="backgroundGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FBFCFE"/>
+      <stop offset="100%" stop-color="#F1F4FA"/>
+    </linearGradient>
+    <linearGradient id="titleGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#315FE8"/>
+      <stop offset="100%" stop-color="#8059F5"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="7" stdDeviation="10"
+                    flood-color="#172033" flood-opacity="0.08"/>
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6"
+                    flood-color="#172033" flood-opacity="0.10"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5"
+            markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8B95AA"/>
+    </marker>
+    <marker id="feedbackArrow" viewBox="0 0 10 10" refX="8.5" refY="5"
+            markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#7956F6"/>
+    </marker>
+    <pattern id="dotGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.5" fill="#CCD4E2" opacity="0.32"/>
+    </pattern>
+  </defs>
+  <rect x="0" y="0" width="1920" height="1080" rx="0" fill="url(#backgroundGradient)" stroke="none" stroke-width="0"/>
+  <rect x="0" y="0" width="1920" height="1080" rx="0" fill="url(#dotGrid)" stroke="none" stroke-width="0"/>
+  <circle cx="1810" cy="25" r="260" fill="#E9E5FF" stroke="none" stroke-width="0"/>
+  <circle cx="1810" cy="25" r="190" fill="#F0EDFF" stroke="none" stroke-width="0"/>
+  <circle cx="70" cy="1050" r="220" fill="#E8F2FF" stroke="none" stroke-width="0"/>
+  <rect x="92" y="60" width="7" height="88" rx="3.5" fill="url(#titleGradient)" stroke="none" stroke-width="0"/>
+  <text x="122" y="74" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="700" fill="#3A67F7" text-anchor="start" letter-spacing="2.2">MIGMA • END-TO-END WORKFLOW</text>
+  <text x="122" y="127" font-family="DejaVu Sans, Arial, sans-serif" font-size="43" font-weight="700" fill="#172033" text-anchor="start">Conceptual Migma End-to-End Email Workflow</text>
+  <text x="122" y="161" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="400" fill="#7A859A" text-anchor="start">Eight stages from governance and intent to measurable improvement</text>
+  <rect x="112" y="210" width="398" height="286" rx="20" fill="#FFFFFF" stroke="#DDE3EE" stroke-width="1.2" filter="url(#cardShadow)"/>
+  <rect x="112" y="210" width="398" height="7" rx="3.5" fill="#3769E8" stroke="none" stroke-width="0"/>
+  <circle cx="151" cy="257" r="22" fill="#3769E8" stroke="none" stroke-width="0"/>
+  <text x="151" y="264" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="186" y="263" font-family="DejaVu Sans, Arial, sans-serif" font-size="18.5" font-weight="700" fill="#172033" text-anchor="start" letter-spacing="0.35">CONFIGURE &amp; GOVERN</text>
+  <line x1="137" y1="290" x2="485" y2="290" stroke="#DDE3EE" stroke-width="1" stroke-linecap="round"/>
+  <circle cx="143" cy="320" r="3.3" fill="#3769E8" stroke="none" stroke-width="0"/>
+  <text x="159" y="326" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#4E5A70" text-anchor="start">Permission-based sending</text>
+  <circle cx="143" cy="351" r="3.3" fill="#3769E8" stroke="none" stroke-width="0"/>
+  <text x="159" y="357" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#4E5A70" text-anchor="start">Brand import</text>
+  <circle cx="143" cy="382" r="3.3" fill="#3769E8" stroke="none" stroke-width="0"/>
+  <text x="159" y="388" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#4E5A70" text-anchor="start">Sender / domain setup</text>
+  <rect x="544" y="210" width="398" height="286" rx="20" fill="#FFFFFF" stroke="#DDE3EE" stroke-width="1.2" filter="url(#cardShadow)"/>
+  <rect x="544" y="210" width="398" height="7" rx="3.5" fill="#4C74E8" stroke="none" stroke-width="0"/>
+  <circle cx="583" cy="257" r="22" fill="#4C74E8" stroke="none" stroke-width="0"/>
+  <text x="583" y="264" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="618" y="263" font-family="DejaVu Sans, Arial, sans-serif" font-size="18.5" font-weight="700" fill="#172033" text-anchor="start" letter-spacing="0.35">CAPTURE INTENT</text>
+  <line x1="569" y1="290" x2="917" y2="290" stroke="#DDE3EE" stroke-width="1" stroke-linecap="round"/>
+  <circle cx="575" cy="320" r="3.3" fill="#4C74E8" stroke="none" stroke-width="0"/>
+  <text x="591" y="326" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#4E5A70" text-anchor="start">Campaign goal</text>
+  <circle cx="575" cy="351" r="3.3" fill="#4C74E8" stroke="none" stroke-width="0"/>
+  <text x="591" y="357" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#4E5A70" text-anchor="start">Audience</text>
+  <circle cx="575" cy="382" r="3.3" fill="#4C74E8" stroke="none" stroke-width="0"/>
+  <text x="591" y="388" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#4E5A70" text-anchor="start">CTA, tone and language</text>
+  <circle cx="575" cy="413" r="3.3" fill="#4C74E8" stroke="none" stroke-width="0"/>
+  <text x="591" y="419" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#4E5A70" text-anchor="start">Optional reference</text>
+  <rect x="976" y="210" width="398" height="286" rx="20" fill="#FFFFFF" stroke="#DDE3EE" stroke-width="1.2" filter="url(#cardShadow)"/>
+  <rect x="976" y="210" width="398" height="7" rx="3.5" fill="#6471DF" stroke="none" stroke-width="0"/>
+  <circle cx="1015" cy="257" r="22" fill="#6471DF" stroke="none" stroke-width="0"/>
+  <text x="1015" y="264" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="1050" y="263" font-family="DejaVu Sans, Arial, sans-serif" font-size="18.5" font-weight="700" fill="#172033" text-anchor="start" letter-spacing="0.35">ENRICH WITH CONTEXT</text>
+  <line x1="1001" y1="290" x2="1349" y2="290" stroke="#DDE3EE" stroke-width="1" stroke-linecap="round"/>
+  <circle cx="1007" cy="320" r="3.3" fill="#6471DF" stroke="none" stroke-width="0"/>
+  <text x="1023" y="326" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#4E5A70" text-anchor="start">Brand voice and design</text>
+  <circle cx="1007" cy="351" r="3.3" fill="#6471DF" stroke="none" stroke-width="0"/>
+  <text x="1023" y="357" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#4E5A70" text-anchor="start">Approved knowledge</text>
+  <circle cx="1007" cy="382" r="3.3" fill="#6471DF" stroke="none" stroke-width="0"/>
+  <text x="1023" y="388" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#4E5A70" text-anchor="start">Products and audience data</text>
+  <rect x="1408" y="210" width="398" height="286" rx="20" fill="#FFFFFF" stroke="#DDE3EE" stroke-width="1.2" filter="url(#cardShadow)"/>
+  <rect x="1408" y="210" width="398" height="7" rx="3.5" fill="#7956F6" stroke="none" stroke-width="0"/>
+  <circle cx="1447" cy="257" r="22" fill="#7956F6" stroke="none" stroke-width="0"/>
+  <text x="1447" y="264" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">4</text>
+  <text x="1482" y="263" font-family="DejaVu Sans, Arial, sans-serif" font-size="18.5" font-weight="700" fill="#172033" text-anchor="start" letter-spacing="0.35">AI CREATIVE GENERATION</text>
+  <line x1="1433" y1="290" x2="1781" y2="290" stroke="#DDE3EE" stroke-width="1" stroke-linecap="round"/>
+  <circle cx="1439" cy="320" r="3.3" fill="#7956F6" stroke="none" stroke-width="0"/>
+  <text x="1455" y="326" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#4E5A70" text-anchor="start">Campaign plan</text>
+  <circle cx="1439" cy="351" r="3.3" fill="#7956F6" stroke="none" stroke-width="0"/>
+  <text x="1455" y="357" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#4E5A70" text-anchor="start">Copy and subject</text>
+  <circle cx="1439" cy="382" r="3.3" fill="#7956F6" stroke="none" stroke-width="0"/>
+  <text x="1455" y="388" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#4E5A70" text-anchor="start">Structured email blueprint</text>
+  <rect x="1408" y="576" width="398" height="286" rx="20" fill="#FFFFFF" stroke="#DDE3EE" stroke-width="1.2" filter="url(#cardShadow)"/>
+  <rect x="1408" y="576" width="398" height="7" rx="3.5" fill="#5D72D9" stroke="none" stroke-width="0"/>
+  <circle cx="1447" cy="623" r="22" fill="#5D72D9" stroke="none" stroke-width="0"/>
+  <text x="1447" y="630" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">5</text>
+  <text x="1482" y="629" font-family="DejaVu Sans, Arial, sans-serif" font-size="18.5" font-weight="700" fill="#172033" text-anchor="start" letter-spacing="0.35">DETERMINISTIC COMPILATION</text>
+  <line x1="1433" y1="656" x2="1781" y2="656" stroke="#DDE3EE" stroke-width="1" stroke-linecap="round"/>
+  <circle cx="1439" cy="686" r="3.3" fill="#5D72D9" stroke="none" stroke-width="0"/>
+  <text x="1455" y="692" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#4E5A70" text-anchor="start">Email-safe HTML</text>
+  <circle cx="1439" cy="717" r="3.3" fill="#5D72D9" stroke="none" stroke-width="0"/>
+  <text x="1455" y="723" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#4E5A70" text-anchor="start">Responsive layout</text>
+  <circle cx="1439" cy="748" r="3.3" fill="#5D72D9" stroke="none" stroke-width="0"/>
+  <text x="1455" y="754" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#4E5A70" text-anchor="start">Personalization variables</text>
+  <rect x="976" y="576" width="398" height="286" rx="20" fill="#FFFFFF" stroke="#DDE3EE" stroke-width="1.2" filter="url(#cardShadow)"/>
+  <rect x="976" y="576" width="398" height="7" rx="3.5" fill="#20A4C8" stroke="none" stroke-width="0"/>
+  <circle cx="1015" cy="623" r="22" fill="#20A4C8" stroke="none" stroke-width="0"/>
+  <text x="1015" y="630" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">6</text>
+  <text x="1050" y="629" font-family="DejaVu Sans, Arial, sans-serif" font-size="18.5" font-weight="700" fill="#172033" text-anchor="start" letter-spacing="0.35">REFINE &amp; PREFLIGHT</text>
+  <line x1="1001" y1="656" x2="1349" y2="656" stroke="#DDE3EE" stroke-width="1" stroke-linecap="round"/>
+  <circle cx="1007" cy="686" r="3.3" fill="#20A4C8" stroke="none" stroke-width="0"/>
+  <text x="1023" y="692" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#4E5A70" text-anchor="start">Chat or visual edit</text>
+  <circle cx="1007" cy="717" r="3.3" fill="#20A4C8" stroke="none" stroke-width="0"/>
+  <text x="1023" y="723" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#4E5A70" text-anchor="start">Cross-client preview</text>
+  <circle cx="1007" cy="748" r="3.3" fill="#20A4C8" stroke="none" stroke-width="0"/>
+  <text x="1023" y="754" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#4E5A70" text-anchor="start">Links, content, spam and</text>
+  <text x="1023" y="778" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#4E5A70" text-anchor="start">compliance checks</text>
+  <rect x="544" y="576" width="398" height="286" rx="20" fill="#FFFFFF" stroke="#DDE3EE" stroke-width="1.2" filter="url(#cardShadow)"/>
+  <rect x="544" y="576" width="398" height="7" rx="3.5" fill="#2B9B78" stroke="none" stroke-width="0"/>
+  <circle cx="583" cy="623" r="22" fill="#2B9B78" stroke="none" stroke-width="0"/>
+  <text x="583" y="630" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">7</text>
+  <text x="618" y="629" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="700" fill="#172033" text-anchor="start" letter-spacing="0.35">REVIEW, APPROVAL &amp; PUBLISH</text>
+  <line x1="569" y1="656" x2="917" y2="656" stroke="#DDE3EE" stroke-width="1" stroke-linecap="round"/>
+  <circle cx="575" cy="686" r="3.3" fill="#2B9B78" stroke="none" stroke-width="0"/>
+  <text x="591" y="692" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#4E5A70" text-anchor="start">Test send</text>
+  <circle cx="575" cy="717" r="3.3" fill="#2B9B78" stroke="none" stroke-width="0"/>
+  <text x="591" y="723" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#4E5A70" text-anchor="start">Human or policy-based approval</text>
+  <circle cx="575" cy="748" r="3.3" fill="#2B9B78" stroke="none" stroke-width="0"/>
+  <text x="591" y="754" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#4E5A70" text-anchor="start">Send / schedule / export</text>
+  <rect x="112" y="576" width="398" height="286" rx="20" fill="#FFFFFF" stroke="#DDE3EE" stroke-width="1.2" filter="url(#cardShadow)"/>
+  <rect x="112" y="576" width="398" height="7" rx="3.5" fill="#D88B27" stroke="none" stroke-width="0"/>
+  <circle cx="151" cy="623" r="22" fill="#D88B27" stroke="none" stroke-width="0"/>
+  <text x="151" y="630" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">8</text>
+  <text x="186" y="629" font-family="DejaVu Sans, Arial, sans-serif" font-size="18.5" font-weight="700" fill="#172033" text-anchor="start" letter-spacing="0.35">EVENTS &amp; IMPROVEMENT</text>
+  <line x1="137" y1="656" x2="485" y2="656" stroke="#DDE3EE" stroke-width="1" stroke-linecap="round"/>
+  <circle cx="143" cy="686" r="3.3" fill="#D88B27" stroke="none" stroke-width="0"/>
+  <text x="159" y="692" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#4E5A70" text-anchor="start">Delivery logs</text>
+  <circle cx="143" cy="717" r="3.3" fill="#D88B27" stroke="none" stroke-width="0"/>
+  <text x="159" y="723" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#4E5A70" text-anchor="start">Clicks, bounces, complaints</text>
+  <text x="159" y="747" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#4E5A70" text-anchor="start">and unsubscribes</text>
+  <circle cx="143" cy="772" r="3.3" fill="#D88B27" stroke="none" stroke-width="0"/>
+  <text x="159" y="778" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="400" fill="#4E5A70" text-anchor="start">Evaluation and product iteration</text>
+  <line x1="517" y1="353.0" x2="522" y2="353.0" stroke="#8B95AA" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 534 353.0 L 521 346.0 L 521 360.0 Z" fill="#8B95AA" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="949" y1="353.0" x2="954" y2="353.0" stroke="#8B95AA" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 966 353.0 L 953 346.0 L 953 360.0 Z" fill="#8B95AA" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="1381" y1="353.0" x2="1386" y2="353.0" stroke="#8B95AA" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 1398 353.0 L 1385 346.0 L 1385 360.0 Z" fill="#8B95AA" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="1607.0" y1="503" x2="1607.0" y2="555" stroke="#8B95AA" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 1600.0 554 L 1607.0 566 L 1614.0 554 Z" fill="#8B95AA" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="1401" y1="719.0" x2="1396" y2="719.0" stroke="#8B95AA" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 1384 719.0 L 1397 712.0 L 1397 726.0 Z" fill="#8B95AA" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="969" y1="719.0" x2="964" y2="719.0" stroke="#8B95AA" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 952 719.0 L 965 712.0 L 965 726.0 Z" fill="#8B95AA" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="537" y1="719.0" x2="532" y2="719.0" stroke="#8B95AA" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 520 719.0 L 533 712.0 L 533 726.0 Z" fill="#8B95AA" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 311.0 867 V 950 H 520" fill="none" stroke="#7956F6" stroke-width="3" stroke-dasharray="4 12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 534 950 L 520 942 L 520 958 Z" fill="#7956F6" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="548" y="909.0" width="742" height="82" rx="34" fill="#F0ECFF" stroke="#CFC4FA" stroke-width="1.2" filter="url(#softShadow)"/>
+  <text x="579" y="940" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" font-weight="700" fill="#7956F6" text-anchor="start" letter-spacing="1.5">MEASURED FEEDBACK TO</text>
+  <text x="579" y="972" font-family="DejaVu Sans, Arial, sans-serif" font-size="21" font-weight="700" fill="#172033" text-anchor="start">Brand context  ·  Prompts  ·  Evaluation set</text>
+  <rect x="1360" y="893" width="448" height="111" rx="16" fill="#FFFFFF" stroke="#DDE3EE" stroke-width="1.2" filter="url(#softShadow)"/>
+  <text x="1382" y="920" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#7A859A" text-anchor="start" letter-spacing="1.4">COLOR KEY</text>
+  <circle cx="1387" cy="945" r="5" fill="#7956F6" stroke="none" stroke-width="0"/>
+  <text x="1401" y="950" font-family="DejaVu Sans, Arial, sans-serif" font-size="14.5" font-weight="500" fill="#4E5A70" text-anchor="start">AI-assisted</text>
+  <circle cx="1595" cy="945" r="5" fill="#3A67F7" stroke="none" stroke-width="0"/>
+  <text x="1609" y="950" font-family="DejaVu Sans, Arial, sans-serif" font-size="14.5" font-weight="500" fill="#4E5A70" text-anchor="start">Deterministic logic</text>
+  <circle cx="1387" cy="975" r="5" fill="#2B9B78" stroke="none" stroke-width="0"/>
+  <text x="1401" y="980" font-family="DejaVu Sans, Arial, sans-serif" font-size="14.5" font-weight="500" fill="#4E5A70" text-anchor="start">Review &amp; publishing</text>
+  <circle cx="1595" cy="975" r="5" fill="#D88B27" stroke="none" stroke-width="0"/>
+  <text x="1609" y="980" font-family="DejaVu Sans, Arial, sans-serif" font-size="14.5" font-weight="500" fill="#4E5A70" text-anchor="start">Feedback &amp; measurement</text>
+  <text x="960.0" y="1026" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" font-weight="600" fill="#4E5A70" text-anchor="middle" letter-spacing="0.15">Cross-cutting controls:  Scoped authorization  ·  Async jobs  ·  Webhooks  ·  Idempotency  ·  Observability</text>
+  <text x="960.0" y="1059" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#7A859A" text-anchor="middle" letter-spacing="0.15">Prepared by Farjam Azizi  ·  Conceptual view based on Migma’s public documentation  ·  Internal implementation may differ</text>
+</svg>
